@@ -7,9 +7,9 @@ from PIL import Image
 from telegram import Update
 from telegram.ext import CallbackContext, run_async
 
-from DaisyX import dispatcher
-from DaisyX.modules.disable import DisableAbleCommandHandler
-from DaisyX.modules.thonkify_dict import thonkifydict
+from LEGEND import dispatcher
+from LEGEND.modules.disable import DisableAbleCommandHandler
+from LEGEND.modules.thonkify_dict import thonkifydict
 
 
 @run_async

@@ -12,18 +12,18 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-from DaisyX import TIGERS, WOLVES, dispatcher
-from DaisyX.modules.connection import connected
-from DaisyX.modules.helper_funcs.alternate import send_message
-from DaisyX.modules.helper_funcs.chat_status import (
+from LEGEND import TIGERS, WOLVES, dispatcher
+from LEGEND.modules.connection import connected
+from LEGEND.modules.helper_funcs.alternate import send_message
+from LEGEND.modules.helper_funcs.chat_status import (
     bot_admin,
     is_user_admin,
     user_admin,
     user_admin_no_reply,
 )
-from DaisyX.modules.helper_funcs.string_handling import extract_time
-from DaisyX.modules.log_channel import loggable
-from DaisyX.modules.sql import antiflood_sql as sql
+from LEGEND.modules.helper_funcs.string_handling import extract_time
+from LEGEND.modules.log_channel import loggable
+from LEGEND.modules.sql import antiflood_sql as sql
 
 FLOOD_GROUP = 3
 

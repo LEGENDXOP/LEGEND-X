@@ -6,17 +6,17 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, Filters, MessageHandler, run_async
 from telegram.utils.helpers import mention_html
 
-import DaisyX.modules.sql.blacklist_sql as sql
-from DaisyX import LOGGER, dispatcher
-from DaisyX.modules.connection import connected
-from DaisyX.modules.disable import DisableAbleCommandHandler
-from DaisyX.modules.helper_funcs.alternate import send_message, typing_action
-from DaisyX.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from DaisyX.modules.helper_funcs.extraction import extract_text
-from DaisyX.modules.helper_funcs.misc import split_message
-from DaisyX.modules.helper_funcs.string_handling import extract_time
-from DaisyX.modules.log_channel import loggable
-from DaisyX.modules.warns import warn
+import LEGEND.modules.sql.blacklist_sql as sql
+from LEGEND import LOGGER, dispatcher
+from LEGEND.modules.connection import connected
+from LEGEND.modules.disable import DisableAbleCommandHandler
+from LEGEND.modules.helper_funcs.alternate import send_message, typing_action
+from LEGEND.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from LEGEND.modules.helper_funcs.extraction import extract_text
+from LEGEND.modules.helper_funcs.misc import split_message
+from LEGEND.modules.helper_funcs.string_handling import extract_time
+from LEGEND.modules.log_channel import loggable
+from LEGEND.modules.warns import warn
 
 BLACKLIST_GROUP = 11
 

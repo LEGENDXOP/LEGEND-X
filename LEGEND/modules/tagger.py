@@ -1,15 +1,15 @@
-# Written by Inukaasith for DaisyX
+# Written by Inukaasith for LEGEND
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode
 from telegram.error import BadRequest
 from telegram.ext import CallbackQueryHandler, CommandHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-from DaisyX import dispatcher
-from DaisyX.modules.disable import DisableAbleCommandHandler
-from DaisyX.modules.helper_funcs.alternate import typing_action
-from DaisyX.modules.helper_funcs.chat_status import bot_admin, user_admin
-from DaisyX.modules.helper_funcs.extraction import extract_user_and_text
+from LEGEND import dispatcher
+from LEGEND.modules.disable import DisableAbleCommandHandler
+from LEGEND.modules.helper_funcs.alternate import typing_action
+from LEGEND.modules.helper_funcs.chat_status import bot_admin, user_admin
+from LEGEND.modules.helper_funcs.extraction import extract_user_and_text
 
 
 @run_async

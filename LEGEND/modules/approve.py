@@ -5,12 +5,12 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
 from telegram.utils.helpers import mention_html
 
-import DaisyX.modules.sql.approve_sql as sql
-from DaisyX import DRAGONS, dispatcher
-from DaisyX.modules.disable import DisableAbleCommandHandler
-from DaisyX.modules.helper_funcs.chat_status import user_admin
-from DaisyX.modules.helper_funcs.extraction import extract_user
-from DaisyX.modules.log_channel import loggable
+import LEGEND.modules.sql.approve_sql as sql
+from LEGEND import DRAGONS, dispatcher
+from LEGEND.modules.disable import DisableAbleCommandHandler
+from LEGEND.modules.helper_funcs.chat_status import user_admin
+from LEGEND.modules.helper_funcs.extraction import extract_user
+from LEGEND.modules.log_channel import loggable
 
 
 @loggable

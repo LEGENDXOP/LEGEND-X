@@ -4,8 +4,8 @@ import pynewtonmath as newton
 from telegram import Update
 from telegram.ext import CallbackContext, run_async
 
-from DaisyX import dispatcher
-from DaisyX.modules.disable import DisableAbleCommandHandler
+from LEGEND import dispatcher
+from LEGEND.modules.disable import DisableAbleCommandHandler
 
 
 @run_async

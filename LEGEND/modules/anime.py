@@ -8,8 +8,8 @@ import requests
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
 
-from DaisyX import DEV_USERS, DRAGONS, OWNER_ID, dispatcher
-from DaisyX.modules.disable import DisableAbleCommandHandler
+from LEGEND import DEV_USERS, DRAGONS, OWNER_ID, dispatcher
+from LEGEND.modules.disable import DisableAbleCommandHandler
 
 info_btn = "More Information"
 kaizoku_btn = "Kaizoku ☠️"

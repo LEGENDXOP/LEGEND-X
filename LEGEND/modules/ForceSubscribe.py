@@ -1,5 +1,5 @@
 #    Copyright (C) 2020-2021 by @InukaAsith
-#    This programme is a part of DaisyX TG bot project
+#    This programme is a part of LEGEND TG bot project
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as published by
@@ -26,9 +26,9 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 )
 from pyrogram.types import ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 
-from DaisyX import DRAGONS as SUDO_USERS
-from DaisyX import pbot
-from DaisyX.modules.sql import forceSubscribe_sql as sql
+from LEGEND import DRAGONS as SUDO_USERS
+from LEGEND import pbot
+from LEGEND.modules.sql import forceSubscribe_sql as sql
 
 logging.basicConfig(level=logging.INFO)
 

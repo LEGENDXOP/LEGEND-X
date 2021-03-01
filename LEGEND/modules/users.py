@@ -11,10 +11,10 @@ from telegram.ext import (
     run_async,
 )
 
-import DaisyX.modules.sql.users_sql as sql
-from DaisyX import DEV_USERS, LOGGER, OWNER_ID, dispatcher
-from DaisyX.modules.helper_funcs.chat_status import dev_plus, sudo_plus
-from DaisyX.modules.sql.users_sql import get_all_users
+import LEGEND.modules.sql.users_sql as sql
+from LEGEND import DEV_USERS, LOGGER, OWNER_ID, dispatcher
+from LEGEND.modules.helper_funcs.chat_status import dev_plus, sudo_plus
+from LEGEND.modules.sql.users_sql import get_all_users
 
 USERS_GROUP = 4
 CHAT_GROUP = 5

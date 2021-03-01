@@ -2,9 +2,9 @@ import speedtest
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
 
-from DaisyX import DEV_USERS, dispatcher
-from DaisyX.modules.disable import DisableAbleCommandHandler
-from DaisyX.modules.helper_funcs.chat_status import dev_plus
+from LEGEND import DEV_USERS, dispatcher
+from LEGEND.modules.disable import DisableAbleCommandHandler
+from LEGEND.modules.helper_funcs.chat_status import dev_plus
 
 
 def convert(speed):

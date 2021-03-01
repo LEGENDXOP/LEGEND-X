@@ -4,9 +4,9 @@ import random
 from telegram import Update
 from telegram.ext import CallbackContext, run_async
 
-import DaisyX.modules.animequotesstring as animequotesstring
-from DaisyX import dispatcher
-from DaisyX.modules.disable import DisableAbleCommandHandler
+import LEGEND.modules.animequotesstring as animequotesstring
+from LEGEND import dispatcher
+from LEGEND.modules.disable import DisableAbleCommandHandler
 
 
 @run_async

@@ -5,9 +5,9 @@ import zipfile
 from telethon import types
 from telethon.tl import functions
 
-from DaisyX import TEMP_DOWNLOAD_DIRECTORY
-from DaisyX import telethn as client
-from DaisyX.events import register
+from LEGEND import TEMP_DOWNLOAD_DIRECTORY
+from LEGEND import telethn as client
+from LEGEND.events import register
 
 
 async def is_register_admin(chat, user):

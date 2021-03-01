@@ -1,5 +1,5 @@
 #    Copyright (C) 2020-2021 by @InukaAsith
-#    This program is a part of DaisyX TG bot project
+#    This program is a part of LEGEND TG bot project
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as published by
@@ -16,7 +16,7 @@
 
 from sqlalchemy import Column, Numeric, String
 
-from DaisyX.modules.sql import BASE, SESSION
+from LEGEND.modules.sql import BASE, SESSION
 
 
 class forceSubscribe(BASE):

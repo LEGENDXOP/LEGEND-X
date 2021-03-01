@@ -1,9 +1,9 @@
 from telegram.ext import run_async
 
-from DaisyX import dispatcher
-from DaisyX.modules.disable import DisableAbleCommandHandler
-from DaisyX.modules.helper_funcs.alternate import send_message
-from DaisyX.modules.helper_funcs.chat_status import user_admin
+from LEGEND import dispatcher
+from LEGEND.modules.disable import DisableAbleCommandHandler
+from LEGEND.modules.helper_funcs.alternate import send_message
+from LEGEND.modules.helper_funcs.chat_status import user_admin
 
 
 @run_async

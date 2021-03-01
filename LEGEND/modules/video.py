@@ -16,8 +16,8 @@ from youtube_dl.utils import (
     XAttrMetadataError,
 )
 
-from DaisyX.events import register
-from DaisyX.utils import progress
+from LEGEND.events import register
+from LEGEND.utils import progress
 
 try:
     from youtubesearchpython import SearchVideos

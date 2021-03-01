@@ -1,4 +1,4 @@
-from DaisyX import LOAD, LOGGER, NO_LOAD
+from LEGEND import LOAD, LOGGER, NO_LOAD
 
 
 def __list_all_modules():

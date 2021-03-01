@@ -22,8 +22,8 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import escape_markdown, mention_html, mention_markdown
 
-import DaisyX.modules.sql.welcome_sql as sql
-from DaisyX import (
+import LEGEND.modules.sql.welcome_sql as sql
+from LEGEND import (
     DEMONS,
     DEV_USERS,
     DRAGONS,
@@ -35,15 +35,15 @@ from DaisyX import (
     dispatcher,
     sw,
 )
-from DaisyX.modules.helper_funcs.chat_status import is_user_ban_protected, user_admin
-from DaisyX.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from DaisyX.modules.helper_funcs.msg_types import get_welcome_type
-from DaisyX.modules.helper_funcs.string_handling import (
+from LEGEND.modules.helper_funcs.chat_status import is_user_ban_protected, user_admin
+from LEGEND.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from LEGEND.modules.helper_funcs.msg_types import get_welcome_type
+from LEGEND.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
     markdown_parser,
 )
-from DaisyX.modules.log_channel import loggable
-from DaisyX.modules.sql.global_bans_sql import is_user_gbanned
+from LEGEND.modules.log_channel import loggable
+from LEGEND.modules.sql.global_bans_sql import is_user_gbanned
 
 VALID_WELCOME_FORMATTERS = [
     "first",

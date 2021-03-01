@@ -4,8 +4,8 @@ from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler
 from telegram.ext.dispatcher import run_async
 
-from DaisyX import LOGGER, dispatcher
-from DaisyX.modules.helper_funcs.chat_status import dev_plus
+from LEGEND import LOGGER, dispatcher
+from LEGEND.modules.helper_funcs.chat_status import dev_plus
 
 
 @dev_plus
