@@ -1,5 +1,5 @@
 import subprocess
-from LEGEND import tbot
+from LEGEND import bot
 from LEGEND.events import register
 from LEGEND import OWNER_ID, DEV_USERS as SUDO_USERS
 import asyncio
