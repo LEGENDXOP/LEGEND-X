@@ -86,7 +86,7 @@ async def _(event):
     if len(final_output) > MAX_MESSAGE_SIZE_LIMIT:
         with io.BytesIO(str.encode(final_output)) as out_file:
             out_file.name = "eval.text"
-            await tbot.send_file(
+            await bot.send_file(
                 event.chat_id,
                 out_file,
                 force_document=True,
@@ -111,4 +111,4 @@ async def aexec(code, smessatatus):
         + "\n event = smessatatus = message"
         + "".join(f"\n {l}" for l in code.split("\n"))
     )
-    return await locals()["__aexec"](message, reply, tbot, p)
+    return await locals()["__aexec"](message, reply, bot, p)
