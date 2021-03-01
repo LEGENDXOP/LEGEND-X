@@ -1,7 +1,7 @@
 import subprocess
 from LEGEND import tbot
 from LEGEND.events import register
-from LEGEND import OWNER_ID, SUDO_USERS
+from LEGEND import OWNER_ID, DEV_USERS as SUDO_USERS
 import asyncio
 import traceback
 import io
