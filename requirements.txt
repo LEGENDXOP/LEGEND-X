@@ -1,4 +1,5 @@
 future
+bs4
 telegraph
 emoji
 lxml
