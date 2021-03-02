@@ -1,4 +1,4 @@
-from LEGEND import telethn as tbot, OWNER_ID
+from LEGEND import telethn as tbot, OWNER_ID, DEV_USERS
 from LEGEND.events import register
 import os
 import asyncio
@@ -45,7 +45,7 @@ from pathlib import Path
 async def install(event):
     if event.fwd_from:
         return
-    if event.sender_id == OWNER_ID:
+    if event.sender_id == OWNER_ID or event.sender_id in DEV_USERS:
         pass
     else:
         return
