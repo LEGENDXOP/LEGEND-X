@@ -20,7 +20,7 @@ import heroku3
 from LEGEND import OWNER_ID, telethn as update
 
 
- UPSTREAM_REPO_URL = "https://github.com/LEGENDXOP/LEGEND-X"
+UPSTREAM_REPO_URL = "https://github.com/LEGENDXOP/LEGEND-X"
 HEROKU_APP_NAME = None
 HEROKU_API_KEY = None
 
