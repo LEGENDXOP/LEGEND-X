@@ -1,8 +1,8 @@
 future
 emoji
 lxml
-git
-heroku3
+gitpython==3.1.11
+heroku3==4.2.3
 beautifulsoup4
 requests
 sqlalchemy
