@@ -2,13 +2,11 @@ import logging
 import os
 import sys
 import time
-from LEGEND.events import register
 import spamwatch
 import telegram.ext as tg
 from pyrogram import Client, errors
 from telethon import TelegramClient
 StartTime = time.time()
-LEGENDX = register
 # enable logging
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
