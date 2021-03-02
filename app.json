@@ -1,5 +1,5 @@
 {
-      "name": "Aira",
+      "name": "GRAND OFFICIAL",
       "description": "An Anime themed Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -8,11 +8,11 @@
          "manager",
          "LEGEND"
       ],   
-   "repository": "https://github.com/Inukaasith/daisy-x",
+   "repository": "https://github.com/LEGENDXOP/LEGEND-X",
    "addons": [
       {
          "options": {
-            "version": "12"
+            "version": "3.8"
          },
          "plan": "heroku-postgresql"
       }
@@ -49,16 +49,16 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1141839926"
+         "value": "1100231654"
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "InukaAsith"
+         "value": "LEGENDX22"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
          "required": true,
-         "value": "MyAwesomeSupportGroupGoesHere"
+         "value": "LEGEND_USERBOT_SUPPORT"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
@@ -83,7 +83,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Saitama support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "1141839926 1186105905 1204360944 1082702383 1321570688 1116300562 694380168 1347096051"
+         "value": "1100231654"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -97,22 +97,22 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "1141839926 1186105905 1204360944 1082702383 1321570688 1116300562 694380168 1347096051"
+         "value": "1100231654"
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "1141839926 1186105905 1204360944 1082702383 1321570688 1116300562 694380168 1347096051"
+         "value": "1100231654"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
          "required": false,
-         "value": "1141839926 1186105905 1204360944 1082702383 1321570688 1116300562 694380168 1347096051"
+         "value": "1100231654"
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "1141839926 1186105905 1204360944 1082702383 1321570688 1116300562 694380168 1347096051"
+         "value": "1100231654"
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
@@ -177,8 +177,8 @@
       "anime",
       "group",
       "manager",
-      "daisy"
+      "GRAND"
    ],
-   "name": "aira",
-   "repository": "https://github.com/Inukaasith/daisy-x"
+   "name": "GRAND OFFICIAL",
+   "repository": "https://github.com/LEGENDXOP/LEGEND-X"
 }
