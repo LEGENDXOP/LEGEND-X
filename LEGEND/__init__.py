@@ -2,12 +2,12 @@ import logging
 import os
 import sys
 import time
-
+from LEGEND.events import register
 import spamwatch
 import telegram.ext as tg
 from pyrogram import Client, errors
 from telethon import TelegramClient
-
+LEGENDX = register
 StartTime = time.time()
 
 # enable logging
@@ -163,7 +163,7 @@ else:
     SPAMWATCH_API = Config.SPAMWATCH_API
     YOUTUBE_API_KEY = Config.YOUTUBE_API_KEY
     INFOPIC = Config.INFOPIC
-
+    bot = TelegramClient(None, API_ID, API_HASH)
     try:
         BL_CHATS = set(int(x) for x in Config.BL_CHATS or [])
     except ValueError:
