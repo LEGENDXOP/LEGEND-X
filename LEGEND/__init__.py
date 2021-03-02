@@ -8,7 +8,7 @@ import telegram.ext as tg
 from pyrogram import Client, errors
 from telethon import TelegramClient
 StartTime = time.time()
-
+LEGENDX = register
 # enable logging
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
@@ -162,9 +162,10 @@ else:
     SPAMWATCH_API = Config.SPAMWATCH_API
     YOUTUBE_API_KEY = Config.YOUTUBE_API_KEY
     INFOPIC = Config.INFOPIC
-    bot = TelegramClient(None, API_ID, API_HASH)
+    
     try:
         BL_CHATS = set(int(x) for x in Config.BL_CHATS or [])
+        bot = TelegramClient(None, API_ID, API_HASH)
     except ValueError:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
