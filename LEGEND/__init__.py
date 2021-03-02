@@ -165,7 +165,6 @@ else:
     
     try:
         BL_CHATS = set(int(x) for x in Config.BL_CHATS or [])
-        bot = TelegramClient(None, API_ID, API_HASH)
     except ValueError:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
