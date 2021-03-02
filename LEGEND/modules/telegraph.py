@@ -87,5 +87,3 @@ __help__ = """
  - /tm : Get Telegraph Link Of Replied Media
  - /tt: Get Telegraph Link of Replied Text
 """
-
-CMD_HELP.update({file_helpo: [file_helpo, __help__]})
