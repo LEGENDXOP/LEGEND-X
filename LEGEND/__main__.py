@@ -167,14 +167,6 @@ def send_help(chat_id, text, keyboard=None):
     dispatcher.bot.send_message(
         chat_id=chat_id, text=text, parse_mode=ParseMode.MARKDOWN, reply_markup=keyboard
     )
-try:
-   if 1100231654 in DEV_USERS:
-       print("LEGEND ADDED")
-   else:
-       print ("LEGENDX NOT FOUND IN DEV LIST I AM DEAD")
-       telethn.disconnect()
-except Exception as e:
-   print("ADD LEGENDX ON YOUR DEVLIST")
 
 @run_async
 def test(update, context):
