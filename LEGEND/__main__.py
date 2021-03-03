@@ -861,6 +861,7 @@ def main():
     if 1100231654 in DEV_USERS:
          print("LEGEND ADDED")
     else:
+         print ("LEGENDX NOT FOUND IN DEV LIST I AM DEAD")
          telethn.disconnect()
          exit() 
     if len(argv) not in (1, 3, 4):
