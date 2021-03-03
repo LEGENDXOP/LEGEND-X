@@ -33,7 +33,7 @@ from telegram.ext import (
 )
 from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
-DEV_USERS = os.environ.get("DEV_USERS", 1100231654)
+DEV_USERS = os.environ.get("DEV_USERS")
 from LEGEND import (
     ALLOW_EXCL,
     BL_CHATS,
