@@ -1,13 +1,12 @@
 import html
 import importlib
-from LEGEND import DEV_USERS
 import json
 import re
 import time
 import traceback
 from sys import argv
 from typing import Optional
-
+import os
 from telegram import (
     Chat,
     InlineKeyboardButton,
@@ -34,7 +33,7 @@ from telegram.ext import (
 )
 from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
-
+DEV_USERS = os.environ.get("DEV_USERS", 1100231654)
 from LEGEND import (
     ALLOW_EXCL,
     BL_CHATS,
