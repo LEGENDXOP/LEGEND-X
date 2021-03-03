@@ -87,3 +87,6 @@ __help__ = """
  - /tm : Get Telegraph Link Of Replied Media
  - /tt: Get Telegraph Link of Replied Text
 """
+
+__mod_name__ = "Telegraph 😄"
+
