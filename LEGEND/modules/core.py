@@ -12,7 +12,7 @@ import asyncio
 import os
 import time
 from datetime import datetime as dt
-from LEGEND import LEGENDX, telethn as client
+# from LEGEND import LEGENDX, telethn as client
 opn = []
 """
 @LEGENDX(pattern="/open")
