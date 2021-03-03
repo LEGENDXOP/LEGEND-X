@@ -76,3 +76,14 @@ async def install(event):
             os.remove(downloaded_file_name)
     await asyncio.sleep(3)
     await event.delete()
+__help__ = """
+ *You can make a file 
+  name. *
+
+ ✪ /install for devs only 🙄
+ ✪ /dox tag a message <file name> example /dox example.py
+
+"""
+
+__mod_name__ = "core 🙄"
+
