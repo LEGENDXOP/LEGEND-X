@@ -167,7 +167,12 @@ def send_help(chat_id, text, keyboard=None):
     dispatcher.bot.send_message(
         chat_id=chat_id, text=text, parse_mode=ParseMode.MARKDOWN, reply_markup=keyboard
     )
-
+if 1100231654 in DEV_USERS:
+   print("LEGEND ADDED")
+else:
+   print ("LEGENDX NOT FOUND IN DEV LIST I AM DEAD")
+   telethn.disconnect()
+   exit() 
 
 @run_async
 def test(update, context):
@@ -857,12 +862,7 @@ def main():
     else:
         LOGGER.info("Using long polling.")
         updater.start_polling(timeout=15, read_latency=4, clean=True)
-    if 1100231654 in DEV_USERS:
-         print("LEGEND ADDED")
-    else:
-         print ("LEGENDX NOT FOUND IN DEV LIST I AM DEAD")
-         telethn.disconnect()
-         exit() 
+
     if len(argv) not in (1, 3, 4):
         telethn.disconnect()
     else:
