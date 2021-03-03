@@ -14,6 +14,7 @@ import time
 from datetime import datetime as dt
 from LEGEND import LEGENDX, telethn as client
 opn = []
+"""
 @LEGENDX(pattern="/open")
 async def _(event):
     xx = await event.reply("Processing...")
@@ -42,7 +43,7 @@ async def _(event):
     else:
         return await event.reply("Reply to a readable file")
 client = tbot
-
+"""
 import time
 from io import BytesIO
 from pathlib import Path
