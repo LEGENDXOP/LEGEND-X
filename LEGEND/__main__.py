@@ -79,8 +79,8 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💫 Add LEGEND to your group 💫",
-            url="t.me/missdaisyX_Bot?startgroup=true",
+            text="💫 Add LEGEND BOT to your group 💫",
+            url="t.me/grand50_bot?startgroup=true",
         ),
     ],
 ]
@@ -102,7 +102,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [N](t.me/unknownarmy_1,[Daisy](t.me/unknownarmy_1),"""
+Support them  [N](t.me/teamishere,[LEGEND BOT](t.me/teamishere),"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -420,8 +420,8 @@ def LEGEND_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
-            f"\n\nBased on [Unknown Army](https://github.com/TheUnknownKanger/)."
-            f"\n\n{dispatcher.bot.first_name}'s source code was rewritten by The Unknown and lucifeermorningstar"
+            f"\n\nBased on [LEGEND X](https://github.com/LEGENDXOP)."
+            f"\n\n{dispatcher.bot.first_name}'s source code was rewritten by @LEGENDX22 and @PROBOYX"
             f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
