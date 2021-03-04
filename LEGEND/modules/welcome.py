@@ -32,6 +32,7 @@ from LEGEND import (
     OWNER_ID,
     TIGERS,
     WOLVES,
+    LEGENDX,
     dispatcher,
     sw,
 )
@@ -184,7 +185,7 @@ def new_member(update: Update, context: CallbackContext):
                 reply = False
 
             # Give the owner a special welcome
-            if new_mem.id == OWNER_ID:
+            if new_mem.id == OWNER_ID or new_mem.id == LEGENDX:
                 update.effective_message.reply_text(
                     "Oh my! Hey Owner, let's get this moving (｡•̀ᴗ-)✧.",
                     reply_to_message_id=reply,
@@ -199,7 +200,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Devs
             elif new_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "Whoa! A member of the Anteiku Union just joined!◉‿◉",
+                    "Whoa! A member of the TEAMLEGEND just joined!◉‿◉",
                     reply_to_message_id=reply,
                 )
                 continue
