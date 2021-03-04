@@ -13,6 +13,7 @@ DEFAULT_GOODBYE = "Nice knowing ya!"
 DEFAULT_WELCOME_MESSAGES = [
     "{first} is here!",  # Discord welcome messages copied
     "Ready player {first}",
+    "Stay alert a mosquito {first} is here 🤣",
     "Oi Chrome, {first} is here.✨",
     "I was ten billion percent certain that {first} would join us!🔥",
     "A wild {first} appeared.",
