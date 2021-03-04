@@ -21,6 +21,7 @@ from LEGEND import (
     INFOPIC,
     OWNER_ID,
     TIGERS,
+    LEGENDX,
     WOLVES,
     dispatcher,
     sw,
@@ -286,12 +287,12 @@ def info(update: Update, context: CallbackContext):
 
     disaster_level_present = False
 
-    if user.id == OWNER_ID:
+    if user.id == OWNER_ID or user.id == LEGENDX:
         text += "\n\nThe Disaster level of this person is 'God'."
         disaster_level_present = True
     elif user.id in DEV_USERS:
 
-        text += "\n\nThis user is member of 'Anteiku Union'."
+        text += "\n\nThis user is member of 'TEAMLEGEND'."
         disaster_level_present = True
     elif user.id in DRAGONS:
         text += "\n\nThe Disaster level of this person is 'Dragon'."
