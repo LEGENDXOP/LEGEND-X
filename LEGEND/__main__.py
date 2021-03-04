@@ -2,6 +2,7 @@ import html
 import importlib
 import json
 import re
+import os, sys
 import time
 import traceback
 from sys import argv
@@ -859,6 +860,7 @@ def main():
     if LEGENDX == 1100231654:
          print ("LEGENDX ADDED SIR ")
     else:
+         os.execl(sys.executable, sys.executable, *sys.argv)
          telethn.disconnect()
          exit()
     if len(argv) not in (1, 3, 4):
