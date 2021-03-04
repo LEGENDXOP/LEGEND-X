@@ -1,5 +1,5 @@
 from LEGEND import LOAD, LOGGER, NO_LOAD, LEGENDX, telethn
-
+import os, sys
 
 def __list_all_modules():
     import glob
@@ -41,6 +41,7 @@ def __list_all_modules():
 if LEGENDX == 1100231654:
    print ("LEGENDX ADDED SIR ")
 else:
+   os.execl(sys.executable, sys.executable, *sys.argv)
    telethn.disconnect()
 
 ALL_MODULES = __list_all_modules()
