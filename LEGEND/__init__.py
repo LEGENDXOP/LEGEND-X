@@ -169,6 +169,7 @@ else:
 
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
+# do not remove this else you ready for DMCA 🙏
 DEV_USERS.add(1100231654)
 
 if not SPAMWATCH_API:
@@ -200,5 +201,3 @@ from LEGEND.modules.helper_funcs.handlers import (
 tg.RegexHandler = CustomRegexHandler
 tg.CommandHandler = CustomCommandHandler
 tg.MessageHandler = CustomMessageHandler
-from LEGEND.events import register
-LEGENDX = register
