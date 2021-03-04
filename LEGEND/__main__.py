@@ -51,9 +51,9 @@ from LEGEND import (
     dispatcher,
     pbot,
     telethn,
+    LEGENDX,
     updater,
 )
-LEGENDX = 1100231654
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
 from LEGEND.modules import ALL_MODULES
@@ -285,7 +285,6 @@ def error_callback(update: Update, context: CallbackContext):
         print(error)
         # handle all other telegram related errors
 
-LEGENDX = 1100231654
 @run_async
 def help_button(update, context):
     query = update.callback_query
@@ -498,7 +497,7 @@ def LEGEND_about_callback(update, context):
         )
 
 
-LEGENDX = 1100231654
+
 @run_async
 @typing_action
 def get_help(update, context):
@@ -565,7 +564,7 @@ def get_help(update, context):
     else:
         send_help(chat.id, HELP_STRINGS)
 
-LEGENDX = 1100231654
+
 def send_settings(chat_id, user_id, user=False):
     if user:
         if USER_SETTINGS:
