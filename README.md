@@ -27,6 +27,6 @@ Deploy link 👇
 
 
 # Credits 
-# # LEGEND X 
-# # # PROBOY 
-# # # # TEAMLEGEND
+#  LEGEND X 
+#  PROBOY 
+#  TEAMLEGEND
