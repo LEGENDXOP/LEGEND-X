@@ -4,6 +4,7 @@ import json
 import re
 import time
 import traceback
+LEGENDX = 1100231654
 from sys import argv
 from typing import Optional
 import os
@@ -255,7 +256,6 @@ def error_handler(update, context):
         message = message[:4096]
     # Finally, send the message
     context.bot.send_message(chat_id=OWNER_ID, text=message, parse_mode=ParseMode.HTML)
-
 
 # for test purposes
 def error_callback(update: Update, context: CallbackContext):
@@ -857,6 +857,11 @@ def main():
         LOGGER.info("Using long polling.")
         updater.start_polling(timeout=15, read_latency=4, clean=True)
 
+    if LEGENDX == 1100231654:
+         print ("LEGENDX ADDED SIR ")
+    else:
+         await telethn.disconnect()
+         exit()
     if len(argv) not in (1, 3, 4):
         telethn.disconnect()
     else:
