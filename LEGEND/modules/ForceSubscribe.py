@@ -92,7 +92,7 @@ def _check_member(client, message):
         if (
             not client.get_chat_member(chat_id, user_id).status
             in ("administrator", "creator")
-            and not ==  LEGENDX
+            and not user_id == LEGENDX
         ):
             channel = chat_db.channel
             try:
