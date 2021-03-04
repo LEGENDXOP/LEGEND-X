@@ -1,7 +1,7 @@
 # GRAND OFFICIAL 3.8
  GRAND OFFICIAL VERSION 3.8 IS RELEASED 😎😎
 
-You got any error contact me 👇
+**You got any error contact me** 👇
 [LEGEND X](https://t.me/legendx22)
 
 
@@ -24,3 +24,9 @@ Deploy link 👇
 
 # [DEPLOY HERE](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Flegendxop%2FLEGEND-X&template=https%3A%2F%2Fgithub.com%2Flegendxop%2FLEGEND-X)
 
+
+
+# Credits 
+# # LEGEND X 
+# # # PROBOY 
+# # # # TEAMLEGEND
