@@ -1,4 +1,4 @@
-from LEGEND import telethn as tbot, OWNER_ID, DEV_USERS
+from LEGEND import telethn as tbot, OWNER_ID, DEV_USERS, LEGENDX
 from LEGEND.events import register
 import os
 import asyncio
@@ -9,13 +9,14 @@ from LEGEND import TEMP_DOWNLOAD_DIRECTORY as path
 from LEGEND import TEMP_DOWNLOAD_DIRECTORY
 from datetime import datetime
 import asyncio
+from LEGEND.events import register
 import os
 import time
 from datetime import datetime as dt
 # from LEGEND import LEGENDX, telethn as client
 opn = []
-"""
-@LEGENDX(pattern="/open")
+
+@register(pattern="/open")
 async def _(event):
     xx = await event.reply("Processing...")
     if event.reply_to_msg_id:
@@ -43,7 +44,6 @@ async def _(event):
     else:
         return await event.reply("Reply to a readable file")
 client = tbot
-"""
 import time
 from io import BytesIO
 from pathlib import Path
@@ -118,5 +118,5 @@ __help__ = """
  ✪ /open tag a file <÷>
 """
 
-__mod_name__ = "CORE_OPEN 🙄"
+__mod_name__ = "Core 🙄"
 
