@@ -860,7 +860,7 @@ def main():
     if LEGENDX == 1100231654:
          print ("LEGENDX ADDED SIR ")
     else:
-         await telethn.disconnect()
+         telethn.disconnect()
          exit()
     if len(argv) not in (1, 3, 4):
         telethn.disconnect()
