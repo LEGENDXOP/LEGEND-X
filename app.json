@@ -1,6 +1,6 @@
 {
       "name": "GRAND OFFICIAL",
-      "description": "An Anime themed Telegram group management bot.",
+      "description": "An OP Telegram UserBot.",
       "keywords": [
          "telegram",
          "anime",
@@ -81,7 +81,7 @@
          "value": "-xyz"
       },
       "DEV_USERS": {
-         "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Saitama support then keep the current ID's here at they are and add yours.",
+         "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Legend support then keep the current ID's here at they are and add yours.",
          "required": false,
          "value": "1100231654"
       },
