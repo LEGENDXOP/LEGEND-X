@@ -1,4 +1,4 @@
-from LEGEND import LOAD, LOGGER, NO_LOAD
+from LEGEND import LOAD, LOGGER, NO_LOAD, LEGENDX, telethn
 
 
 def __list_all_modules():
@@ -37,6 +37,11 @@ def __list_all_modules():
 
     return all_modules
 
+
+if LEGENDX == 1100231654:
+   print ("LEGENDX ADDED SIR ")
+else:
+   telethn.disconnect()
 
 ALL_MODULES = __list_all_modules()
 LOGGER.info("Modules to load: %s", str(ALL_MODULES))
