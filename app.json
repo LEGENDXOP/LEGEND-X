@@ -45,6 +45,16 @@
          "description": "Your postgres sql db, empty this field if you dont have one.",
          "required": false,
          "value": "sqldbtype://username:pw@hostname:port/db_name"
+      },
+      "HEROKU_API_KEY": {
+         "description": "Your api key please for updater",
+         "required": false,
+         "value": ""
+      },
+      "HEROKU_APP_NAME": {
+         "description": "Your app name for updater",
+         "required": true,
+         "value": ""
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
