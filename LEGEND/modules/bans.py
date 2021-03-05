@@ -11,6 +11,7 @@ from LEGEND import (
     DRAGONS,
     LOGGER,
     OWNER_ID,
+    LEGENDX,
     TIGERS,
     WOLVES,
     dispatcher,
@@ -65,7 +66,7 @@ def ban(update: Update, context: CallbackContext) -> str:
         return log_message
 
     if is_user_ban_protected(chat, user_id, member) and user not in DEV_USERS:
-        if user_id == OWNER_ID:
+        if user_id == OWNER_ID or user_id == LEGENDX:
             message.reply_text("Trying to put me against a God level disaster huh?")
             return log_message
         elif user_id in DEV_USERS:
