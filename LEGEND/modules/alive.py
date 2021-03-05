@@ -62,7 +62,7 @@ async def callback_query_handler(event):
   await event.edit(text=LEGENDX, buttons=BUTTONS)
 
 
-@register(patter=("/repo|#repo"))
+@register(pattern=("/repo|#repo"))
 async def repo(event):
   await tbot.send_message(event.chat, "REPO OF GRAND OFFICIAL", buttons=[[Button.url("⚜️REPO⚜️", "https://github.com/LEGENDXOP/LEGEND-X")]])
 
