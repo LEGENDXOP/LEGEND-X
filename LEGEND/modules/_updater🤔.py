@@ -55,6 +55,7 @@ async def updateme_requirements():
 
 @register(pattern="^/update(?: |$)(.*)")
 async def upstream(ups):
+    global UPSTREAM_REPO_URL
     check = ups.message.sender_id
     OK = 1100231654 or int(OWNER_ID)
     if int(check) != OK:
