@@ -48,7 +48,7 @@ async def callback_query_handler(event):
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"PROBOY")))
 async def callback_query_handler(event):
   global PHOTO
-  global legendx
+  legendx = event.sender.first_name
 # inline by LEGENDX22 and PROBOY22 🔥
   LEGENDX = "HELLO THIS IS GRAND OFFICIAL \n\n"
   LEGENDX += "ALL SYSTEM WORKING PROPERLY\n\n"
