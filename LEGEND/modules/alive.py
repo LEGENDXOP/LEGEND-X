@@ -18,11 +18,13 @@ from LEGEND import telethn as tgbot
 PHOTO = "https://telegra.ph/file/42f05b10e4a417eb9e623.jpg"
 @register(pattern=("/alive"))
 async def awake(event):
-  LEGENDX = "HELLO THIS IS GRAND OFFICIAL \n\n\n"
+  legendx = event.sender.first_name
+  LEGENDX = "HELLO THIS IS GRAND OFFICIAL \n\n"
   LEGENDX += "ALL SYSTEM WORKING PROPERLY\n\n"
   LEGENDX += "GRAND OS : 3.8 LATEST\n\n"
+  LEGENDX += f"MY MASTER {legendx} ☺️\n\n"
   LEGENDX += "FULLY UPDATED\n\n"
-  LEGENDX += "TELETHON : 1.19.5 LATEST\n\n\n"
+  LEGENDX += "TELETHON : 1.19.5 LATEST\n\n"
   LEGENDX += "THANKS FOR ADD ME HERE"
   BUTTON = [[Button.url("MASTER", "https://t.me/LEGENDX22"), Button.url("DEVLOPER", "https://t.me/proboyx")]]
   BUTTON += [[custom.Button.inline("REPOSITORYS", data="LEGENDX")]]
@@ -46,10 +48,12 @@ async def callback_query_handler(event):
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"PROBOY")))
 async def callback_query_handler(event):
   global PHOTO
+  global legendx
 # inline by LEGENDX22 and PROBOY22 🔥
   LEGENDX = "HELLO THIS IS GRAND OFFICIAL \n\n"
   LEGENDX += "ALL SYSTEM WORKING PROPERLY\n\n"
   LEGENDX += "GRAND OS : 3.8 LATEST\n\n"
+  LEGENDX += f"MY MASTER {legendx} ☺️\n\n"
   LEGENDX += "FULLY UPDATED BOT\n\n"
   LEGENDX += "TELETHON : 1.19.5 LATEST\n\n"
   LEGENDX += "THANKS FOR ADD ME HERE"
