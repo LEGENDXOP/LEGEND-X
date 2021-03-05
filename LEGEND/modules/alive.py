@@ -61,7 +61,13 @@ async def callback_query_handler(event):
   BUTTONS += [[custom.Button.inline("REPOSITORYS", data="LEGENDX")]]
   await event.edit(text=LEGENDX, buttons=BUTTONS)
 
+@register(patter="/repo")
+async def repo(event):
+  await tbot.send_message(event.chat, "REPO OF GRAND OFFICIAL", buttons=[[Button.url("⚜️REPO⚜️", "https://github.com/LEGENDXOP/LEGEND-X")]])
+
+
 __help__ = """
  - /alive check bot alive or die
+ - /repo for this bot repo
 """
 __mod_name__ = "Alive⚜️"
