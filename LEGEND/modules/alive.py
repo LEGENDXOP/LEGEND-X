@@ -15,7 +15,7 @@ import re, os
 from LEGEND.events import register
 from LEGEND import telethn as tbot
 from LEGEND import telethn as tgbot
-PHOTO = "https://telegra.ph/file/42f05b10e4a417eb9e623.jpg"
+PHOTO = "https://telegra.ph/file/b068fc8dc8d9be627bf85.jpg"
 @register(pattern=("/alive"))
 async def awake(event):
   legendx = event.sender.first_name
