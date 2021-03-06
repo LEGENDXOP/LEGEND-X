@@ -6,7 +6,7 @@
 (((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
 """
 import io
-from LEGEND import tbot as borg
+from LEGEND import telethn as borg
 import requests
 from LEGEND.events import register
 
