@@ -32,7 +32,7 @@ async def callback_query_handler(event):
     LEGENDX += f"YOUR SUPOORTED : {PRO.support}\n"
     LEGENDX += f"RESTRICTED : {PRO.restricted} \n"
     LEGENDX += f"USER ID : {boy}\n"
-    LEGENDX += f"USERNAME : {PRO.username}\n\n\n"
+    LEGENDX += f"USERNAME : {PRO.username}\n\n"
     LEGENDX += "THANKS FOR USING ME ☺️☺️☺️"
     await event.answer(LEGENDX, alert=True)
   except Exception as e:
