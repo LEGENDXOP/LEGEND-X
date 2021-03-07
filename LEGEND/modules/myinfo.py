@@ -16,10 +16,10 @@ from LEGEND import telethn as tgbot
 from LEGEND.events import register 
 @register(pattern="/myinfo")
 async def proboyx(event):
-  button = [[custom.Button.inline("CHECK",data="information")]]
+  button = [[custom.Button.inline("CHECK",data="info")]]
   await bot.send_message(event.chat, "YOUR INFORMATION",buttons=button)
 
-@tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"information")))
+@tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"info")))
 async def callback_query_handler(event):
   try:
     boy = event.sender_id
@@ -29,7 +29,7 @@ async def callback_query_handler(event):
     LEGENDX += f"LAST NAME : {PRO.last_name}\n"
     LEGENDX += f"YOU BOT : {PRO.bot} \n"
     LEGENDX += f"YOU SCAMMER : {PRO.scam}\n"
-    LEGENDX += f"YOUR SUPOORTED : {PRO.support}\n"
+    LEGENDX += f"YOUR SUPPORTED : {PRO.support}\n"
     LEGENDX += f"RESTRICTED : {PRO.restricted} \n"
     LEGENDX += f"USER ID : {boy}\n"
     LEGENDX += f"USERNAME : {PRO.username}\n\n"
