@@ -1,4 +1,4 @@
-# COPYRIGHT (C) BY LEGENDX22 AND PROBOYX
+# COPYRIGHT (C) 2021 BY LEGENDX22 AND PROBOYX
 
 """
 (((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
@@ -6,7 +6,7 @@
 (((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
 (((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
                  MADE BY LEGENDX AND PROBOY
-                   CREDITS TEAMLEGEND 
+                   CREDITS #TEAMLEGEND 
                 PLEASE DON'T REMOVE CREDITS
 """
 
@@ -62,7 +62,7 @@ async def callback_query_handler(event):
   await event.edit(text=LEGENDX, buttons=BUTTONS)
 
 
-@register(pattern=("/repo|#repo"))
+@register(pattern=("/repo|/REPO"))
 async def repo(event):
   await tbot.send_message(event.chat, "REPO OF GRAND OFFICIAL", buttons=[[Button.url("⚜️REPO⚜️", "https://github.com/LEGENDXOP/LEGEND-X")]])
 
