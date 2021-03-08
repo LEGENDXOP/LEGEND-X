@@ -1,4 +1,4 @@
-from LEGEND.events import register
+from LEGEND.events import register as LEGENDX22
 from LEGEND import telethn as bot
 from LEGEND import *
 
