@@ -1,7 +1,6 @@
 # MADE BY PROBOYX AND LEGENDX22
 
-from telethon import events, Button
-import asyncio
+from telethon import events
 from LEGENDX import bot as client
 @client.on(events.NewMessage(pattern='offtopic|#ot'))
 async def handler(event):
@@ -14,6 +13,5 @@ async def handler(event):
     except:
       await event.reply("tag a message and type #ot or #offtopic")
   else:
-     ok = await event.reply("this chat not made for this command")
-     await asyncio.sleep(8)
-     await ok.delete()
+     await event.reply("this chat not made for this command")
+  
