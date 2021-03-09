@@ -8,7 +8,7 @@ async def handler(event):
     try:
       ok = await event.get_reply_message()
       oo = event.chat.username
-      pro = f"@{ok.sender.username} You are going offtopic\nyou got warn \nand also got banned \n\nofftopic [message](https://t.me/{event.chat.username}/{ok.id}) \nReporter : @{event.sender.username}"
+      pro = f"@{ok.sender.username} You are going offtopic\nyou got warn \nand also got banned \n\nofftopic [message](https://t.me/{event.chat.username}/{ok.id}) \nReporter : @{event.sender.username}\nif offtopic message is deleted\nofftopic message = {ok.message}"
       await client.send_message(event.chat_id, pro)
     except:
       await event.reply("tag a message and type #ot or #offtopic")
