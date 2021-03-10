@@ -44,7 +44,7 @@ async def is_register_admin(chat, user):
     else:
         return None
 
-
+'''
 @register(pattern="^/gs (.*)")
 async def _(event):
     if event.fwd_from:
@@ -73,7 +73,7 @@ async def _(event):
         "{}".format(output_str), link_preview=False, parse_mode="Markdown"
     )
 
-
+'''
 @register(pattern="^/img (.*)")
 async def img_sampler(event):
     if event.fwd_from:
