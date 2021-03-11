@@ -13,11 +13,7 @@
 # MADE BY LEGEND X AND PROBOY
 
 
-from LEGENDX import bot as borg
-
-from LEGENDX import bot as tgbot
-
-
+from LEGENDX import bot
 import os
 import re
 import urllib
@@ -27,10 +23,15 @@ import requests
 from telethon import Button, custom, events, functions
 from youtubesearchpython import SearchVideos
 
-@tgbot.on(events.InlineQuery(pattern=r"yt (.*)"))
+@bot.on(events.InlineQuery(pattern=r"yt (.*)"))
 async def inline_id_handler(event: events.InlineQuery.Event):
     builder = event.builder
-    testinput,legendx = event.pattern_match.group(1).split(";")
+    k = event.pattern_match.group(1)
+    if ";" in k:
+         testinput,legendx = event.pattern_match.group(1).split(";")
+    else:
+         testinput = event.pattern_match.group(1)
+         legendx = 5
     urllib.parse.quote_plus(testinput)
     lund = event.sender_id
     if lund == lund:
@@ -71,8 +72,7 @@ async def inline_id_handler(event: events.InlineQuery.Event):
             )
         await event.answer(results)
 
-    if  lund == 1100231655:
-        resultm = builder.article(title="me not your bot",description="Mind Your Business",text="Hey U Must Use https://github.com/LEGENDXOP/LEGEND-X  ",buttons=[[Button.switch_inline("Search Again", query="yt ", same_peer=True)],], )
-        await event.answer([resultm])
-        return
-
+__mod_name__="YouTube"
+__help__"""
+ - `@grand50_bot yt <search your query> ;8`
+    Use ; this as result stopper""" 
