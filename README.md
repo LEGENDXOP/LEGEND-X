@@ -3,15 +3,15 @@
 
 **You got any error contact me** 👇
 [LEGEND X](https://t.me/legendx22)
-<details>
-<summary> GRAND OFFICIAL </summary>
-<img src="https://telegra.ph/file/1830075084b76b1b1aa24.jpg" alt="GRAND OFFICIAL" />
-</details>
+
 # FORK FULL SUPPORT BY LEGEND X
 # ADD LEGEND X ON DEVLIST
 # ELSE YOU GOT DMCA
 # LEGENDX ID `1100231654`
-
+<details>
+<summary> GRAND OFFICIAL </summary>
+<img src="https://telegra.ph/file/1830075084b76b1b1aa24.jpg" />
+</details>
 Please read this 👇
 <details>
   <summary>Steps to deploy on Heroku !! </summary>
