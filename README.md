@@ -26,8 +26,8 @@ Deploy link 👇
 
 <details>
 <summary> Credits ❤️ </summary>
-# Credits 
-## LEGEND X
-### PROBOY
-#### TEAMLEGEND
+<b> Credits</b>
+<h1> LEGEND X </h1>
+<h1> PROBOY </h1>
+<h1> TEAMLEGEND </h1>
 </details>
