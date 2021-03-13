@@ -11,5 +11,5 @@ try:
   ok.start()
   ok.run_until_disconnect()
 except Exception as e:
-  await bot.send_message(event.chat, e)
+  print (e)
 # COPYRIGHT (C) BY LEGENDX22 AND PROBOYX
