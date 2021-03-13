@@ -1,7 +1,7 @@
 # MADE BY PROBOYX AND LEGENDX22
 
 from telethon import events
-from LEGENDX import bot as client
+from LEGEND import telethn as client
 @client.on(events.NewMessage(pattern='#offtopic|#ot'))
 async def handler(event):
   if event.chat_id == -1001383980001 or event.chat_id == -1001365341799:
