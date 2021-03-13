@@ -1,15 +1,16 @@
 from LEGEND.events import register as LEGENDX22
 from LEGEND import telethn as bot
-from LEGEND import *
+from LEGEND import API_ID, API_HASH
 from LEGEND.events import *
+from telethon import TelegramClient
+if STRING_SESSION:
+    user = TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH)
+else:
+     print ("please add StringSession var")
+
 try:
-  from telethon import TelegramClient
-  api_id = 1869668
-  api_hash = '1037f965ea0a2db1136b9e83e5fc8d83'
-  bot_token = '1561576171:AAGsHnIOZ_otsazWrrG07kEuD2ZLtgYySMU'
-  ok = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
-  ok.start()
-  ok.run_until_disconnect()
+     ubot.start()
 except Exception as e:
-  print (e)
+     print(e)
+        
 # COPYRIGHT (C) BY LEGENDX22 AND PROBOYX
