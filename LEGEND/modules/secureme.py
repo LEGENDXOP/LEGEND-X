@@ -39,7 +39,7 @@ async def haha(event):
     LEGENDX = event.pattern_match.group(1)
     ok = b64decode(f"{LEGENDX}".decode())
     await event.reply(ok)
-  except Exception as e
+  except Exception as e:
     await event.reply(f'can you give me some text ?\n\n\n{e}')
 
 __mod_name__="Secure♟️"
