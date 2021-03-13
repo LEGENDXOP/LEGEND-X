@@ -24,25 +24,25 @@ async def hmm(event):
     Text = ok
     k = secureme.decrypt(Text)
     await event.reply(k)
-@LEGENDX22(pattern="/base")
+@LEGENDX22(pattern="/base (.*)")
 async def crypt (event):
-  LEGENDX = event.pattern_match.group(1)
-  if not LEGENDX == "":
+  try:
+    LEGENDX = event.pattern_match.group(1)
     ok = b64dencode(f"{LEGENDX}".encode())
     await event.reply(ok)
-  else:
-    await event.reply('can you give me some text ?')
+  except Exception as e:
+    await event.reply(f'can you give me some text ?\n\n\n {e}')
 
-@LEGENDX22(pattern="/-base")
+@LEGENDX22(pattern="/-base (.*)")
 async def haha(event):
-  LEGENDX = event.pattern_match.group(1)
-  if not LEGENDX == "":
+  try:
+    LEGENDX = event.pattern_match.group(1)
     ok = b64decode(f"{LEGENDX}".decode())
     await event.reply(ok)
-  else:
-    await event.reply('can you give me some text ?')
+  except Exception as e
+    await event.reply(f'can you give me some text ?\n\n\n{e}')
 
-__mod_name__="secure"
+__mod_name__="Secure♟️"
 __help__="""
 - /encrypt <text> for crypting
 - /decrypt <text> for decoding
