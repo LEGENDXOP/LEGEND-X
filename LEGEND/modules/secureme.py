@@ -31,7 +31,7 @@ async def crypt (event):
     ok = b64dencode(f"{LEGENDX}".encode())
     await event.reply(ok)
   else:
-    await event.reply('can you give me some text ?")
+    await event.reply('can you give me some text ?')
 
 @LEGENDX22(pattern="/-base")
 async def haha(event):
@@ -40,7 +40,7 @@ async def haha(event):
     ok = b64decode(f"{LEGENDX}".decode())
     await event.reply(ok)
   else:
-    await event.reply('can you give me some text ?")
+    await event.reply('can you give me some text ?')
 
 __mod_name__="secure"
 __help__="""
