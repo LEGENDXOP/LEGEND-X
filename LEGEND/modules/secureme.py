@@ -28,7 +28,7 @@ async def hmm(event):
 async def crypt (event):
   try:
     LEGENDX = event.pattern_match.group(1)
-    ok = b64dencode(f"{LEGENDX}".encode())
+    ok = b64encode(f"{LEGENDX}".encode())
     await event.reply(ok)
   except Exception as e:
     await event.reply(f'can you give me some text ?\n\n\n {e}')
