@@ -3,6 +3,8 @@ from LEGEND import telethn as bot
 from LEGEND import API_ID, API_HASH
 from LEGEND.events import *
 from telethon import TelegramClient
+from telethon.sessions import StringSession
+
 import os
 STRING_SESSION = os.environ.get("STRING_SESSION")
 if STRING_SESSION:
