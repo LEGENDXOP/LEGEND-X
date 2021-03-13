@@ -11,7 +11,7 @@ else:
      print ("please add StringSession var")
 
 try:
-     ubot.start()
+     user.start()
 except Exception as e:
      print(e)
         
