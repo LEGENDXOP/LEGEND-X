@@ -3,6 +3,8 @@ from LEGEND import telethn as bot
 from LEGEND import API_ID, API_HASH
 from LEGEND.events import *
 from telethon import TelegramClient
+import os
+STRING_SESSION = os.environ.get("STRING_SESSION")
 if STRING_SESSION:
     user = TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH)
 else:
