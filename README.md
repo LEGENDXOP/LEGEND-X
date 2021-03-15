@@ -30,6 +30,6 @@ Deploy link 👇
 <summary> Credits ❤️ </summary>
 <b> Credits</b>
 <h1> LEGEND X </h1>
-<h1> PROBOY </h1>
+<h1> PROBOY X </h1>
 <h1> TEAMLEGEND </h1>
 </details>
