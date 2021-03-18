@@ -196,7 +196,9 @@ from LEGEND.modules.helper_funcs.handlers import (
     CustomMessageHandler,
     CustomRegexHandler,
 )
-
+import os 
+import bmemcached
+db = bmemcached.Client(os.environ.get('MEMCACHEDCLOUD_SERVERS').split(','), os.environ.get('MEMCACHEDCLOUD_USERNAME'), os.environ.get('MEMCACHEDCLOUD_PASSWORD'))
 # make sure the regex handler can take extra kwargs
 tg.RegexHandler = CustomRegexHandler
 tg.CommandHandler = CustomCommandHandler
