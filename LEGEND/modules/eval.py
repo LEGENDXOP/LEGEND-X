@@ -1,7 +1,6 @@
 import subprocess
 from LEGEND import telethn as bot
 from LEGEND.events import register
-from LEGENDX import user
 from LEGEND import OWNER_ID, DEV_USERS as SUDO_USERS, LEGENDX
 import asyncio
 import traceback
