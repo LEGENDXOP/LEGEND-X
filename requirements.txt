@@ -27,6 +27,7 @@ jikanpy
 speedtest-cli
 coffeehouse
 regex
+python-binary-memcached
 bleach
 git+https://github.com/starry69/python-markdown2.git
 wikipedia
