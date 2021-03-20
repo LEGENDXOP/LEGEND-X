@@ -5,7 +5,7 @@
 (((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
 (((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
 (((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
-                 MADE BY LEGENDX AND PROBOY
+                 MADE BY LEGENDX AND PROBOYX
                    CREDITS #TEAMLEGEND 
                 PLEASE DON'T REMOVE CREDITS
 """
@@ -35,7 +35,7 @@ async def awake(event):
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"LEGENDX")))
 async def callback_query_handler(event):
-# inline by LEGENDX22 and PROBOY22 🔥
+# inline by LEGENDX22 and PROBOYX🔥
   PROBOYX = [[Button.url("REPO-LEGEND", "https://github.com/LEGENDXOP/LEGEND-BOT"), Button.url("REPO-ULTROID X", "https://github.com/ULTROID-OP/ULTROID-BOT")]]
   PROBOYX +=[[Button.url("DEPLOY-LEGEND", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Flegendxop%2Flegend-bot&template=https%3A%2F%2Fgithub.com%2FLEGENDXOP%2FLEGEND-BOTP%2FLE"), Button.url("DEPLOY-ULTROID", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FULTROID-OP%2FULTROID-BOT&template=https%3A%2F%2Fgithub.com%2FULTROID-OP%2FULTROID-BOT")]]
   PROBOYX +=[[Button.url("TUTORIAL", "https://youtu.be/rGCSSFPsS4Q"), Button.url("STRING-SESSION", "https://repl.it/@legendx22/LEGEND-BOT#main.py")]]
@@ -49,7 +49,7 @@ async def callback_query_handler(event):
 async def callback_query_handler(event):
   global PHOTO
   legendx = event.sender.first_name
-# inline by LEGENDX22 and PROBOY22 🔥
+# inline by LEGENDX22 and PROBOYX 🔥
   LEGENDX = "HELLO THIS IS GRAND OFFICIAL \n\n"
   LEGENDX += "ALL SYSTEM WORKING PROPERLY\n\n"
   LEGENDX += "GRAND OS : 3.8 LATEST\n\n"
@@ -65,7 +65,7 @@ async def callback_query_handler(event):
 @register(pattern=("/repo|/REPO"))
 async def repo(event):
   await tbot.send_message(event.chat, "REPO OF GRAND OFFICIAL", buttons=[[Button.url("⚜️REPO⚜️", "https://github.com/LEGENDXOP/LEGEND-X")]])
-
+# PROBOYX 🔥 LEGENDX22
 
 __help__ = """
  - /alive check bot alive or die
