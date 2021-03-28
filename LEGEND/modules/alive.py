@@ -15,18 +15,18 @@ import re, os
 from LEGEND.events import register
 from LEGEND import telethn as tbot
 from LEGEND import telethn as tgbot
-PHOTO = "https://telegra.ph/file/b068fc8dc8d9be627bf85.jpg"
+PHOTO = "https://telegra.ph/file/ae5a7b751569bb8b5062e.jpg"
 @register(pattern=("/alive"))
 async def awake(event):
   legendx = event.sender.first_name
-  LEGENDX = "HELLO THIS IS GRAND OFFICIAL \n\n"
+  LEGENDX = "HELLO THIS IS Mewtwo bot \n\n"
   LEGENDX += "ALL SYSTEM WORKING PROPERLY\n\n"
-  LEGENDX += "GRAND OS : 3.8 LATEST\n\n"
-  LEGENDX += f"MY MASTER {legendx} ☺️\n\n"
+  LEGENDX += "3.0 OS : 3.8 LATEST\n\n"
+  LEGENDX += f"MY MASTER {Swami} ☺️\n\n"
   LEGENDX += "FULLY UPDATED\n\n"
   LEGENDX += "TELETHON : 1.19.5 LATEST\n\n"
-  LEGENDX += "THANKS FOR ADD ME HERE"
-  BUTTON = [[Button.url("MASTER", "https://t.me/LEGENDX22"), Button.url("DEVLOPER", "https://t.me/proboyx")]]
+  LEGENDX += "THANKS FOR ADDING ME HERE"
+  BUTTON = [[Button.url("DEVELOPER", "https://t.me/Swami_2_0_0_50"), Button.url("MASTER", "https://t.me/swami_2_0_0_5")]]
   BUTTON += [[custom.Button.inline("REPOSITORYS", data="LEGENDX")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=LEGENDX,  buttons=BUTTON)
 
@@ -36,35 +36,19 @@ async def awake(event):
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"LEGENDX")))
 async def callback_query_handler(event):
 # inline by LEGENDX22 and PROBOYX🔥
-  PROBOYX = [[Button.url("REPO-LEGEND", "https://github.com/LEGENDXOP/LEGEND-BOT"), Button.url("REPO-ULTROID X", "https://github.com/ULTROID-OP/ULTROID-BOT")]]
-  PROBOYX +=[[Button.url("DEPLOY-LEGEND", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Flegendxop%2Flegend-bot&template=https%3A%2F%2Fgithub.com%2FLEGENDXOP%2FLEGEND-BOTP%2FLE"), Button.url("DEPLOY-ULTROID", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FULTROID-OP%2FULTROID-BOT&template=https%3A%2F%2Fgithub.com%2FULTROID-OP%2FULTROID-BOT")]]
-  PROBOYX +=[[Button.url("TUTORIAL", "https://youtu.be/rGCSSFPsS4Q"), Button.url("STRING-SESSION", "https://repl.it/@legendx22/LEGEND-BOT#main.py")]]
+  PROBOYX = [[Button.url("REPO-MEWTWO 3.0", "https://github.com/pogonoob/LEGEND-BOT"),
+  PROBOYX +=[[Button.url("DEPLOY-MEWTWO 3.0", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fpogonoob%2Flegend-bot&template=https%3A%2F%2Fgithub.com%2Fpogonoob%2FLEGEND-BOTP%2FLE")
   PROBOYX +=[[Button.url("API_ID & HASH", "https://t.me/usetgxbot"), Button.url("REDIS", "https://redislabs.com")]]
-  PROBOYX +=[[Button.url("SUPPORT CHANNEL", "https://t.me/LEGENDBOT_OFFICIAL"), Button.url("SUPPORT GROUP", "https://t.me/LEGEND_USERBOT_SUPPORT")]]
+  PROBOYX +=[[Button.url("SUPPORT CHANNEL", "https://t.me/mewtwobotsupport"), Button.url("SUPPORT GROUP", "https://t.me/mewtwo1_botsupport")]]
+  PROBOYX +=[[Button.url("POKEMON GO FRIENDS", "https://t.me/letsplay_pokemongo"), Button.url("HELPER", "https://t.me/Swami_alt")]]
   PROBOYX +=[[custom.Button.inline("ALIVE", data="PROBOY")]]
   await event.edit(text=f"ALL DETAILS OF REPOS", buttons=PROBOYX)
 
 
-@tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"PROBOY")))
-async def callback_query_handler(event):
-  global PHOTO
-  legendx = event.sender.first_name
-# inline by LEGENDX22 and PROBOYX 🔥
-  LEGENDX = "HELLO THIS IS GRAND OFFICIAL \n\n"
-  LEGENDX += "ALL SYSTEM WORKING PROPERLY\n\n"
-  LEGENDX += "GRAND OS : 3.8 LATEST\n\n"
-  LEGENDX += f"MY MASTER {legendx} ☺️\n\n"
-  LEGENDX += "FULLY UPDATED BOT\n\n"
-  LEGENDX += "TELETHON : 1.19.5 LATEST\n\n"
-  LEGENDX += "THANKS FOR ADD ME HERE"
-  BUTTONS = [[Button.url("MASTER", "https://t.me/LEGENDX22"), Button.url("DEVLOPER", "https://t.me/proboyx")]]
-  BUTTONS += [[custom.Button.inline("REPOSITORYS", data="LEGENDX")]]
-  await event.edit(text=LEGENDX, buttons=BUTTONS)
-
 
 @register(pattern=("/repo|/REPO"))
 async def repo(event):
-  await tbot.send_message(event.chat, "REPO OF GRAND OFFICIAL", buttons=[[Button.url("⚜️REPO⚜️", "https://github.com/LEGENDXOP/LEGEND-X")]])
+  await tbot.send_message(event.chat, "REPO OF MEWTWO 3.0", buttons=[[Button.url("⚜️REPO⚜️", "https://github.com/pogonoob/LEGEND-X")]])
 # PROBOYX 🔥 LEGENDX22
 
 __help__ = """
