@@ -2,7 +2,7 @@
  
 
 **You got any error contact me** 👇
-[LEGEND X](https://t.me/swami_2_0_0_5)
+[Developer](https://t.me/swami_2_0_0_5)
 # ADD Swami ON DEVLIST
 <details>
 <summary> Mewtwo 3.0 </summary>
