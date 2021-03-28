@@ -22,7 +22,7 @@ async def awake(event):
   LEGENDX = "HELLO THIS IS Mewtwo bot \n\n"
   LEGENDX += "ALL SYSTEM WORKING PROPERLY\n\n"
   LEGENDX += "3.0 OS : 3.8 LATEST\n\n"
-  LEGENDX += f"MY MASTER {legend} ☺️\n\n"
+  LEGENDX += f"MY MASTER {legendx} ☺️\n\n"
   LEGENDX += "FULLY UPDATED\n\n"
   LEGENDX += "TELETHON : 1.19.5 LATEST\n\n"
   LEGENDX += "THANKS FOR ADDING ME HERE"
