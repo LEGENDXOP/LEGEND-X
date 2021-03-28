@@ -35,10 +35,7 @@ async def awake(event):
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"LEGENDX")))
 async def callback_query_handler(event):
-# inline by LEGENDX22 and PROBOYX🔥
-  PROBOYX = [[Button.url("REPO-MEWTWO 3.0", "https://github.com/pogonoob/LEGEND-BOT"),
-  PROBOYX +=[[Button.url("DEPLOY-MEWTWO 3.0", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fpogonoob%2Flegend-bot&template=https%3A%2F%2Fgithub.com%2Fpogonoob%2FLEGEND-BOTP%2FLE")
-  PROBOYX +=[[Button.url("API_ID & HASH", "https://t.me/usetgxbot"), Button.url("REDIS", "https://redislabs.com")]]
+# inline by Swami_2_0_0_5
   PROBOYX +=[[Button.url("SUPPORT CHANNEL", "https://t.me/mewtwobotsupport"), Button.url("SUPPORT GROUP", "https://t.me/mewtwo1_botsupport")]]
   PROBOYX +=[[Button.url("POKEMON GO FRIENDS", "https://t.me/letsplay_pokemongo"), Button.url("HELPER", "https://t.me/Swami_alt")]]
   PROBOYX +=[[custom.Button.inline("ALIVE", data="PROBOY")]]
@@ -49,7 +46,7 @@ async def callback_query_handler(event):
 @register(pattern=("/repo|/REPO"))
 async def repo(event):
   await tbot.send_message(event.chat, "REPO OF MEWTWO 3.0", buttons=[[Button.url("⚜️REPO⚜️", "https://github.com/pogonoob/LEGEND-X")]])
-# PROBOYX 🔥 LEGENDX22
+# SWAMI_2_0_0_5
 
 __help__ = """
  - /alive check bot alive or die
