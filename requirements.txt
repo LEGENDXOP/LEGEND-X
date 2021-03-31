@@ -1,5 +1,6 @@
 future
 bs4
+LEGENDX
 telegraph
 search_engine_parser
 emoji
