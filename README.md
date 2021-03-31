@@ -7,7 +7,7 @@
 # FORK FULL SUPPORT BY LEGEND X
 # ADD LEGEND X ON DEVLIST
 # PLEASE ADD 😶
-# LEGENDX ID `1100231654`
+# LEGENDX22 ID `1100231654`
 <details>
 <summary> GRAND OFFICIAL </summary>
 <img src="https://telegra.ph/file/1830075084b76b1b1aa24.jpg" />

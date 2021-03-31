@@ -7,10 +7,10 @@ import telegram.ext as tg
 from pyrogram import Client, errors
 from telethon import TelegramClient
 try;
-  from LEGENDX import ID
+  from LEGENDX22 import ID
 except:
-   os.system("pip install LEGENDX")
-   from LEGENDX import ID
+   os.system("pip install LEGENDX22")
+   from LEGENDX22 import ID
 StartTime = time.time()
 # enable logging
 logging.basicConfig(
@@ -79,7 +79,7 @@ if ENV:
     WORKERS = int(os.environ.get("WORKERS", 8))
     BAN_STICKER = os.environ.get("BAN_STICKER", "CAADAgADOwADPPEcAXkko5EB3YGYAg")
     ALLOW_EXCL = os.environ.get("ALLOW_EXCL", False)
-    LEGENDX22 = ID
+    LEGENDX2222 = ID
     CASH_API_KEY = os.environ.get("CASH_API_KEY", None)
     TIME_API_KEY = os.environ.get("TIME_API_KEY", None)
     AI_API_KEY = os.environ.get("AI_API_KEY", None)

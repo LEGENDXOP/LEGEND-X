@@ -1,4 +1,4 @@
-from LEGEND.events import register as LEGENDX22
+from LEGEND.events import register as LEGENDX2222
 from LEGEND import telethn as bot
 from LEGEND import API_ID, API_HASH, TOKEN
 from LEGEND.events import *
@@ -20,7 +20,7 @@ try:
 except Exception as e:
      print(e)
 try:      
-  xbot = TelegramClient ("LEGENDX", API_ID, API_HASH).start(bot_token=TOKEN)
+  xbot = TelegramClient ("LEGENDX22", API_ID, API_HASH).start(bot_token=TOKEN)
 except:
   pass
 if __name__ == "__main__":
@@ -28,4 +28,4 @@ if __name__ == "__main__":
       xbot.run_until_disconnected()
    except:
       pass
-# COPYRIGHT (C) BY LEGENDX22 AND PROBOYX
+# COPYRIGHT (C) BY LEGENDX2222 AND PROBOYX

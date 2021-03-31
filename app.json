@@ -8,7 +8,7 @@
          "manager",
          "LEGEND"
       ],   
-   "repository": "https://github.com/LEGENDXOP/LEGEND-X",
+   "repository": "https://github.com/LEGENDX22OP/LEGEND-X",
    "addons": [
       {
          "options": {
@@ -63,7 +63,7 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "LEGENDX22"
+         "value": "LEGENDX2222"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
@@ -190,5 +190,5 @@
       "GRAND"
    ],
    "name": "GRAND OFFICIAL",
-   "repository": "https://github.com/LEGENDXOP/LEGEND-X"
+   "repository": "https://github.com/LEGENDX22OP/LEGEND-X"
 }

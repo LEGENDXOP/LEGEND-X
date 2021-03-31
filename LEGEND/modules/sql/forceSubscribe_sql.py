@@ -1,4 +1,4 @@
-#    Copyright (C) 2020-2021 by @LEGENDX22, @PROBOYX
+#    Copyright (C) 2020-2021 by @LEGENDX2222, @PROBOYX
 #    This program is a part of LEGEND TG bot project
 #
 #    This program is free software: you can redistribute it and/or modify

@@ -6,7 +6,7 @@ from telegram.error import BadRequest, Unauthorized
 from telegram.ext import CallbackQueryHandler, CommandHandler, run_async
 
 import LEGEND.modules.sql.connection_sql as sql
-from LEGEND import DEV_USERS, DRAGONS, dispatcher, LEGENDX
+from LEGEND import DEV_USERS, DRAGONS, dispatcher, LEGENDX22
 from LEGEND.modules.helper_funcs import chat_status
 from LEGEND.modules.helper_funcs.alternate import send_message, typing_action
 
@@ -280,14 +280,14 @@ def connected(bot: Bot, update: Update, chat, user_id, need_admin=True):
             or (isallow and ismember)
             or (user.id in DRAGONS)
             or (user.id in DEV_USERS)
-            or (user.id == LEGENDX)
+            or (user.id == LEGENDX22)
         ):
             if need_admin is True:
                 if (
                     getstatusadmin.status in ("administrator", "creator")
                     or user_id in DRAGONS
                     or user.id in DEV_USERS
-                    or user.id == LEGENDX
+                    or user.id == LEGENDX22
                 ):
                     return conn_id
                 else:

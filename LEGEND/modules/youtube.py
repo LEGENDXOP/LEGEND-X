@@ -1,13 +1,13 @@
-# COPYRIGHT (C) 2021 BY LEGENDX22 AND PROBOYX
-# 1ST INLINE YOUTUBE PLUG-IN MADE BY LEGENDX22 AND PROBOYX
+# COPYRIGHT (C) 2021 BY LEGENDX2222 AND PROBOYX
+# 1ST INLINE YOUTUBE PLUG-IN MADE BY LEGENDX2222 AND PROBOYX
 # DONT KANG THIS
 # IF YOU KANG THEN PLEASE TAKE PERMISSION
 # ELSE READY FOR DMCA
 """
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
+(((((((((((((((((((((((@LEGENDX2222)))))))))))))))))))))))))))
+(((((((((((((((((((((((@LEGENDX2222)))))))))))))))))))))))))))
+(((((((((((((((((((((((@LEGENDX2222)))))))))))))))))))))))))))
+(((((((((((((((((((((((@LEGENDX2222)))))))))))))))))))))))))))
 """
 
 # MADE BY LEGEND X AND PROBOY

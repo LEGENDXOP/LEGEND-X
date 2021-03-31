@@ -1,11 +1,11 @@
-# COPYRIGHT (C) BY LEGENDX22 AND PROBOYX 
+# COPYRIGHT (C) BY LEGENDX2222 AND PROBOYX 
 """
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
-               MADE BY LEGENDX22 AND PROBOYX
-              COPYRIGHT BY LEGENDX AND PROBOY
+(((((((((((((((((((((((@LEGENDX2222)))))))))))))))))))))))))))
+(((((((((((((((((((((((@LEGENDX2222)))))))))))))))))))))))))))
+(((((((((((((((((((((((@LEGENDX2222)))))))))))))))))))))))))))
+(((((((((((((((((((((((@LEGENDX2222)))))))))))))))))))))))))))
+               MADE BY LEGENDX2222 AND PROBOYX
+              COPYRIGHT BY LEGENDX22 AND PROBOY
                  CREDIT #TEAMLEGEND 
          IF YOU KANG THEN DONT REMOVE THIS LINES 
 """
@@ -24,13 +24,13 @@ async def callback_query_handler(event):
   try:
     boy = event.sender_id
     PRO = await bot.get_entity(boy)
-    LEGENDX = "YOUR DETAILS BY GRAND OFFICIAL\n"
-    LEGENDX += f"FIRST NAME : {PRO.first_name} \n"
-    LEGENDX += f"LAST NAME : {PRO.last_name}\n"
-    LEGENDX += f"YOU BOT : {PRO.bot} \n"
-    LEGENDX += f"RESTRICTED : {PRO.restricted} \n"
-    LEGENDX += f"USER ID : {boy}\n"
-    LEGENDX += f"USERNAME : {PRO.username}\n"
-    await event.answer(LEGENDX, alert=True)
+    LEGENDX22 = "YOUR DETAILS BY GRAND OFFICIAL\n"
+    LEGENDX22 += f"FIRST NAME : {PRO.first_name} \n"
+    LEGENDX22 += f"LAST NAME : {PRO.last_name}\n"
+    LEGENDX22 += f"YOU BOT : {PRO.bot} \n"
+    LEGENDX22 += f"RESTRICTED : {PRO.restricted} \n"
+    LEGENDX22 += f"USER ID : {boy}\n"
+    LEGENDX22 += f"USERNAME : {PRO.username}\n"
+    await event.answer(LEGENDX22, alert=True)
   except Exception as e:
     await event.reply(f"{e}")

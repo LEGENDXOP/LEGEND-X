@@ -3,7 +3,7 @@ import os
 import re
 import urllib
 from datetime import datetime
-from LEGEND_X import LEGENDX22, bot as tbot
+from LEGEND_X import LEGENDX2222, bot as tbot
 import requests
 from bs4 import BeautifulSoup
 from PIL import Image
@@ -13,7 +13,7 @@ opener = urllib.request.build_opener()
 useragent = "Mozilla/5.0 (Linux; Android 9; SM-G960F Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.157 Mobile Safari/537.36"
 opener.addheaders = [("User-agent", useragent)]
 
-@LEGENDX22(pattern="^/gs (.*)")
+@LEGENDX2222(pattern="^/gs (.*)")
 async def gsearch(q_event):
     k = await q_event.reply("Searching......")
     match = q_event.pattern_match.group(1)

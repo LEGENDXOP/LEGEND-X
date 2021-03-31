@@ -5,7 +5,7 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-from LEGEND import DRAGONS, dispatcher, LEGENDX
+from LEGEND import DRAGONS, dispatcher, LEGENDX22
 from LEGEND.modules.disable import DisableAbleCommandHandler
 from LEGEND.modules.helper_funcs.alternate import send_message
 from LEGEND.modules.helper_funcs.chat_status import (
@@ -38,7 +38,7 @@ def promote(update: Update, context: CallbackContext) -> str:
 
     if (
         not (promoter.can_promote_members or promoter.status == "creator")
-        and not user.id == LEGENDX
+        and not user.id == LEGENDX22
     ):
         message.reply_text("You don't have the necessary rights to do that!")
         return

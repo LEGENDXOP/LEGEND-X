@@ -1,4 +1,4 @@
-# MADE BY PROBOYX AND LEGENDX22
+# MADE BY PROBOYX AND LEGENDX2222
 
 from telethon import events
 from LEGEND import telethn as client

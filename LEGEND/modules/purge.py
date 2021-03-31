@@ -5,7 +5,7 @@ from telethon import events
 from telethon.errors.rpcerrorlist import MessageDeleteForbiddenError
 from telethon.tl.types import ChannelParticipantsAdmins
 
-from LEGEND import DEV_USERS, telethn, LEGENDX
+from LEGEND import DEV_USERS, telethn, LEGENDX22
 from LEGEND.modules.helper_funcs.telethn.chatstatus import (
     can_delete_messages,
     user_is_admin,
@@ -18,7 +18,7 @@ async def is_administrator(user_id: int, message):
     async for user in telethn.iter_participants(
         message.chat_id, filter=ChannelParticipantsAdmins
     ):
-        if user_id == user.id or user_id in DEV_USERS or user_id == LEGENDX:
+        if user_id == user.id or user_id in DEV_USERS or user_id == LEGENDX22:
             admin = True
             break
     return admin

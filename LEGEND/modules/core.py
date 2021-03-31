@@ -1,4 +1,4 @@
-from LEGEND import telethn as tbot, OWNER_ID, DEV_USERS, LEGENDX
+from LEGEND import telethn as tbot, OWNER_ID, DEV_USERS, LEGENDX22
 from LEGEND.events import register
 import os
 import asyncio
@@ -13,7 +13,7 @@ from LEGEND.events import register
 import os
 import time
 from datetime import datetime as dt
-# from LEGEND import LEGENDX, telethn as client
+# from LEGEND import LEGENDX22, telethn as client
 opn = []
 
 @register(pattern="/open")
@@ -78,7 +78,7 @@ from pathlib import Path
 async def install(event):
     if event.fwd_from:
         return
-    if event.sender_id == OWNER_ID or event.sender_id in DEV_USERS or event.sender_id == LEGENDX:
+    if event.sender_id == OWNER_ID or event.sender_id in DEV_USERS or event.sender_id == LEGENDX22:
         pass
     else:
         return

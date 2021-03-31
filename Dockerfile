@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/LEGEND
-RUN git clone -b legend https://github.com/LEGENDXOP/LEGEND-X /root/LEGEND
+RUN git clone -b legend https://github.com/LEGENDX22OP/LEGEND-X /root/LEGEND
 WORKDIR /root/LEGEND
 
 #Copy config file to /root/LEGEND/LEGEND

@@ -1,4 +1,4 @@
-#    Copyright (C) 2020-2021 by @LEGENDX22
+#    Copyright (C) 2020-2021 by @LEGENDX2222
 #    This programme is a part of LEGEND TG bot project
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -26,7 +26,7 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 )
 from pyrogram.types import ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 
-from LEGEND import DEV_USERS as SUDO_USERS, LEGENDX
+from LEGEND import DEV_USERS as SUDO_USERS, LEGENDX22
 from LEGEND import pbot
 from LEGEND.modules.sql import forceSubscribe_sql as sql
 
@@ -92,7 +92,7 @@ def _check_member(client, message):
         if (
             not client.get_chat_member(chat_id, user_id).status
             in ("administrator", "creator")
-            and not user_id == LEGENDX
+            and not user_id == LEGENDX22
         ):
             channel = chat_db.channel
             try:
@@ -132,7 +132,7 @@ def _check_member(client, message):
 @pbot.on_message(filters.command(["forcesubscribe", "fsub"]) & ~filters.private)
 def config(client, message):
     user = client.get_chat_member(message.chat.id, message.from_user.id)
-    if user.status is "creator" or user.user.id in SUDO_USERS or user.user.id == LEGENDX:
+    if user.status is "creator" or user.user.id in SUDO_USERS or user.user.id == LEGENDX22:
         chat_id = message.chat.id
         if len(message.command) > 1:
             input_str = message.command[1]
