@@ -1,6 +1,6 @@
 # COPYRIGHT (C) 2021 BY LEGENDX22 AND ROSELOVERX
 #CREDITS #TEAMLEGEND
-from LEGENDX import bot as tbot, LEGENDX22
+from LEGEND_X import bot as tbot, LEGENDX22
 import os
 import secureme
 from base64 import b64decode, b64encode

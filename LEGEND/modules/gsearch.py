@@ -3,7 +3,7 @@ import os
 import re
 import urllib
 from datetime import datetime
-from LEGENDX import LEGENDX22, bot as tbot
+from LEGEND_X import LEGENDX22, bot as tbot
 import requests
 from bs4 import BeautifulSoup
 from PIL import Image

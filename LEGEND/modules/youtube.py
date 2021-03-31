@@ -13,7 +13,7 @@
 # MADE BY LEGEND X AND PROBOY
 
 
-from LEGENDX import bot
+from LEGEND_X import bot
 import os
 import re
 import urllib
