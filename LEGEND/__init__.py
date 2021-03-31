@@ -6,6 +6,11 @@ import spamwatch
 import telegram.ext as tg
 from pyrogram import Client, errors
 from telethon import TelegramClient
+try;
+  from LEGENDX import ID
+except:
+   os.system("pip install LEGENDX")
+   from LEGENDX import ID
 StartTime = time.time()
 # enable logging
 logging.basicConfig(
