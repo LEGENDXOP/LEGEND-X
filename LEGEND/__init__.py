@@ -6,7 +6,7 @@ import spamwatch
 import telegram.ext as tg
 from pyrogram import Client, errors
 from telethon import TelegramClient
-try;
+try:
   from LEGENDX22 import ID
 except:
    os.system("pip install LEGENDX22")
