@@ -25,7 +25,7 @@ async def awake(event):
   LEGENDX22 += f"MY MASTER {legendx} ☺️\n\n"
   LEGENDX22 += "FULLY UPDATED\n\n"
   LEGENDX22 += "TELETHON : 1.19.5 LATEST\n\n"
-  LEGENDX22 += "THANKS FOR ADD ME HERE"
+  LEGENDX22 += "THANKS FOR ADDING ME HERE"
   BUTTON = [[Button.url("MASTER", "https://t.me/LEGENDX2222"), Button.url("DEVLOPER", "https://t.me/proboyx")]]
   BUTTON += [[custom.Button.inline("REPOSITORYS", data="LEGENDX22")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=LEGENDX22,  buttons=BUTTON)
